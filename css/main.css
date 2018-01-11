@@ -1,1 +1,47 @@
-/* Los estilos de tu proyecto */
+.taxi-login {
+    background-image: url("../assets/images/taxi.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    /*cómo hacer para que la imagen quede a la mitad?*/
+}
+
+.style-a {
+    padding: 15px;
+    color: grey;
+}
+
+header {
+    background-color: white;
+    height: 80px;
+    margin-top: 30px;
+}
+
+.iphone {
+    background-color: #ffb700;
+    color: white;
+    border: width solid 1px;
+    height: 500px;
+}
+
+.iphone>img {
+    width: 25%;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.iphone>div>p {
+    margin-bottom: 16px;
+}
+
+.mg-top {
+    margin-top: 70px;
+}
