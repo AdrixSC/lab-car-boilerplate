@@ -1,3 +1,11 @@
+/*Estilos para la seccion del nav*/
+
+.logo {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/*Estilos para la seccion del taxi login*/
 .taxi-img {
     background-image: url("../assets/images/taxi.jpg");
     background-size: cover;
@@ -10,44 +18,75 @@
 
 .login {
     background: #ffb700;
-    height: 50vh;
+    height: 40vh;
     position: relative;
-    top: 200px;
+    top: 230px;
     color: white;
+    padding-top: 15px;
 }
 
 .login>h1 {
     font-size: 20px;
+    margin: 0px;
 }
 
-.style-a {
-    padding: 15px;
-    color: grey;
+.login>p {
+    font-size: 15px;
+    padding-top: 10px;
 }
 
-.logo {
-    margin-bottom: 20px;
-    margin-top: 20px;
+.login>div>p {
+    font-size: 10px;
 }
 
-.links {
-    margin-top: 20px;
+.login > div > hr {
+    width: 20%;
 }
+
+
+/*Estilos para la seccion de iphone*/
+
+.iphone {
+    background-color: #ffb700;
+    color: white;
+    border: width solid 1px;
+    height: 100vh;
+}
+
+.iphone>img {
+    width: 25%;
+}
+
+.iphone>div>p {
+    margin-bottom: 16px;
+}
+
+.mg-top {
+    margin-top: 130px;
+}
+
+.border {
+  border: 1px solid white;
+  height: 85vh;
+  margin-top: 70px;
+  width: 90%;
+}
+
+/*Estilos para la seccion de driver */
 
 .driver {
     background-image: url("../assets/images/conduce.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    /*height: 100%;*/
+    background-position: center;
     height: 100vh;
-    /*height: 1600px;*/
     padding: 0px;
 }
 
 .container-button {
     background-color: black;
     opacity: 0.8;
-    margin-top: 20px;
+    /*margin-top: 20px;*/
     height: 300px;
 }
 
@@ -62,40 +101,22 @@
     font-size: 15px;
 }
 
-header {
-    background-color: white;
-    height: 80px;
-    margin-top: 30px;
-    display: inline-block;
-    width: 100%;
-    margin: 0;
+.btn-driver {
+  background-color: #ffb700;
+  border-style: none;
+  color: white;
 }
 
-.iphone {
-    background-color: #ffb700;
-    color: white;
-    border: width solid 1px;
-    height: 500px;
+/*Estilos para la seccion de map*/
+
+.map {
+  background-color: #ffb700;
+  height: 100vh;
 }
 
-.iphone>img {
-    width: 25%;
-}
-
-h1 {
-    font-size: 28px;
-    margin-bottom: 25px;
-}
+/*Estilos generales*/
 
 body {
     font-size: 16px;
     line-height: 1.5;
-}
-
-.iphone>div>p {
-    margin-bottom: 16px;
-}
-
-.mg-top {
-    margin-top: 70px;
 }
