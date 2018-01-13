@@ -1,1 +1,3 @@
-// La funcionalidad de tu proyecto
+//$('#myModal').modal('toggle')
+
+//$('#myModal').modal('show')
