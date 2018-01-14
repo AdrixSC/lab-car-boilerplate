@@ -113,8 +113,13 @@
                                     .container-button {
                                         background-color: black;
                                         opacity: 0.8;
-                                        /*margin-top: 20px;*/
-                                        height: 300px;
+                                        height: auto;
+                                        float: right;
+                                        display: block;
+                                    }
+                                    
+                                    .container-button-mobile {
+                                        display: none;
                                     }
                                     
                                     .container-button>h1 {
@@ -132,6 +137,7 @@
                                         background-color: #ffb700;
                                         border-style: none;
                                         color: white;
+                                        margin-bottom: 25px;
                                     }
                                     /*Estilos para la seccion de map*/
                                     
