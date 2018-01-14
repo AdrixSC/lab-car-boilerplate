@@ -1,0 +1,29 @@
+@media (max-width: 768px) {
+    .login-mobile {
+        background: #ffb700;
+        height: auto;
+        position: relative;
+        top: 250px;
+        color: white;
+        padding: 50px;
+        display: block;
+        float: right;
+        line-height: 40px;
+    }
+    span {
+        font-size: 40px;
+    }
+    .line {
+        display: inline-block;
+        font-size: 40px;
+    }
+    .line>img {
+        width: 45%;
+    }
+    .login-mobile>p {
+        margin-top: 20px;
+    }
+    .login {
+        display: none;
+    }
+}

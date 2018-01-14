@@ -1,183 +1,204 @@
-                                /*Estilos para la seccion del nav*/
-                            
-                            .logo {
-                                margin-bottom: 20px;
-                                margin-top: 20px;
-                            }
-                            /*Estilos para la seccion del taxi login*/
-                            
-                            .taxi-img {
-                                background-image: url("../assets/images/taxi.jpg");
-                                background-size: cover;
-                                background-repeat: no-repeat;
-                                background-position: bottom;
-                                height: 100vh;
-                            }
-                            
-                            .taxi-login {}
-                            
-                            .login {
-                                background: #ffb700;
-                                height: 40vh;
-                                position: relative;
-                                top: 230px;
-                                color: white;
-                                padding-top: 15px;
-                            }
-                            
-                            .login>h1 {
-                                font-size: 20px;
-                                margin: 0px;
-                            }
-                            
-                            .login>p {
-                                font-size: 15px;
-                                padding-top: 10px;
-                            }
-                            
-                            .login>div>p {
-                                font-size: 10px;
-                                text-align: center;
-                            }
-                            
-                            .login>div>hr {
-                                width: 20%;
-                            }
-                            /*Estilos para la seccion de iphone*/
-                            
-                            .iphone {
-                                background-color: #ffb700;
-                                color: white;
-                                height: 80vh;
-                            }
-                            
-                            .iphone>div>p {
-                                margin-bottom: 16px;
-                            }
-                            
-                            .mg-top {
-                                margin-top: 35px;
-                            }
-                            
-                            .border {
-                                border: 1px solid white;
-                                height: 65vh;
-                                margin-top: 55px;
-                                width: 80%;
-                            }
-                            
-                            .img>img {
-                                width: 30%;
-                            }
-                            /*Estilos para la seccion de driver */
-                            
-                            .driver {
-                                background-image: url("../assets/images/conduce.jpg");
-                                background-size: cover;
-                                background-repeat: no-repeat;
-                                background-position: center;
-                                height: 80vh;
-                                padding: 0px;
-                            }
-                            
-                            .container-button {
-                                background-color: black;
-                                opacity: 0.8;
-                                /*margin-top: 20px;*/
-                                height: 300px;
-                            }
-                            
-                            .container-button>h1 {
-                                margin-top: 90px;
-                                color: white;
-                                font-size: 20px;
-                            }
-                            
-                            .container-button>p {
-                                color: white;
-                                font-size: 15px;
-                            }
-                            
-                            .btn-driver {
-                                background-color: #ffb700;
-                                border-style: none;
-                                color: white;
-                            }
-                            /*Estilos para la seccion de map*/
-                            
-                            .map {
-                                background-color: #ffb700;
-                                height: 80vh;
-                                color: white;
-                            }
-                            
-                            .form {
-                                padding-top: 55px;
-                            }
-                            
-                            .point {
-                                margin-top: 35px;
-                            }
-                            
-                            .style-input {
-                                width: 100%;
-                                background-color: initial;
-                                border-color: white;
-                                color: white;
-                            }
-                            
-                            .style-input::placeholder {
-                                color: white;
-                            }
-                            
-                            .destination {
-                                margin-top: 25px;
-                            }
-                            
-                            .btn-draw {
-                                margin-top: 20px;
-                            }
-                            
-                            .img-map {
-                                margin-top: 50px;
-                            }
-                            /*Estilos para la seccion del footer*/
-                            
-                            footer {
-                                background-color: #2b2b2b;
-                                height: 70vh;
-                                margin: 0;
-                                padding-top: 40px;
-                                color: white;
-                            }
-                            
-                            li {
-                                list-style: none;
-                            }
-                            
-                            ul {
-                                font-size: 15px;
-                                line-height: 30px;
-                            }
-                            
-                            .icons {
-                                margin-top: 210px;
-                                padding-right: 5px;
-                            }
-                            
-                            .app-store {
-                                margin-bottom: 15px;
-                            }
-                            
-                            .logos-app {
-                                margin-top: 100px;
-                            }
-                            
-                            hr {
-                                width: 100%;
-                            }
-                            /*Estilos generales*/
-                            
-                            body {
-                                font-size: 16px;
-                                line-height: 1.5;
+                                    /*Estilos para la seccion del nav*/
+                                    
+                                    .logo {
+                                        margin-bottom: 20px;
+                                        margin-top: 20px;
+                                    }
+                                    /*Estilos para la seccion del taxi login*/
+                                    
+                                    .taxi-img {
+                                        background-image: url("../assets/images/taxi.jpg");
+                                        background-size: cover;
+                                        background-repeat: no-repeat;
+                                        background-position: bottom;
+                                        height: 100vh;
+                                        width: 100%;
+                                    }
+                                    
+                                    .login {
+                                        background: #ffb700;
+                                        height: auto;
+                                        position: relative;
+                                        float: right;
+                                        top: 230px;
+                                        color: white;
+                                        padding-top: 15px;
+                                    }
+                                    
+                                    .login-mobile {
+                                        display: none;
+                                    }
+                                    
+                                    .login>h1 {
+                                        font-size: 20px;
+                                        margin: 0px;
+                                    }
+                                    
+                                    .login>p {
+                                        font-size: 15px;
+                                        padding-top: 10px;
+                                    }
+                                    
+                                    .login>div>p {
+                                        font-size: 10px;
+                                        text-align: center;
+                                    }
+                                    
+                                    .login>div>hr {
+                                        width: 20%;
+                                    }
+                                    /*Estilos para la seccion de iphone*/
+                                    
+                                    .iphone {
+                                        background-color: #ffb700;
+                                        color: white;
+                                        height: 80vh;
+                                    }
+                                    
+                                    .iphone>div>p {
+                                        margin-bottom: 16px;
+                                    }
+                                    
+                                    .mg-top {
+                                        margin-top: 35px;
+                                    }
+                                    
+                                    .border {
+                                        border: 1px solid white;
+                                        height: 65vh;
+                                        margin-top: 55px;
+                                        width: 80%;
+                                    }
+                                    
+                                    .img>img {
+                                        width: 30%;
+                                    }
+                                    
+                                    .login-mobile>h1 {
+                                        font-size: 20px;
+                                    }
+                                    
+                                    .show {
+                                        display: block;
+                                    }
+                                    
+                                    .hide {
+                                        display: none;
+                                    }
+                                    
+                                    .login-mobile>p {
+                                        font-size: 10px;
+                                    }
+                                    /*Estilos para la seccion de driver */
+                                    
+                                    .driver {
+                                        background-image: url("../assets/images/conduce.jpg");
+                                        background-size: cover;
+                                        background-repeat: no-repeat;
+                                        background-position: center;
+                                        height: 80vh;
+                                        padding: 0px;
+                                    }
+                                    
+                                    .container-button {
+                                        background-color: black;
+                                        opacity: 0.8;
+                                        /*margin-top: 20px;*/
+                                        height: 300px;
+                                    }
+                                    
+                                    .container-button>h1 {
+                                        margin-top: 90px;
+                                        color: white;
+                                        font-size: 20px;
+                                    }
+                                    
+                                    .container-button>p {
+                                        color: white;
+                                        font-size: 15px;
+                                    }
+                                    
+                                    .btn-driver {
+                                        background-color: #ffb700;
+                                        border-style: none;
+                                        color: white;
+                                    }
+                                    /*Estilos para la seccion de map*/
+                                    
+                                    .map {
+                                        background-color: #ffb700;
+                                        height: 80vh;
+                                        color: white;
+                                    }
+                                    
+                                    .form {
+                                        padding-top: 55px;
+                                    }
+                                    
+                                    .point {
+                                        margin-top: 35px;
+                                    }
+                                    
+                                    .style-input {
+                                        width: 100%;
+                                        background-color: initial;
+                                        border-color: white;
+                                        color: white;
+                                    }
+                                    
+                                    .style-input::placeholder {
+                                        color: white;
+                                    }
+                                    
+                                    .destination {
+                                        margin-top: 25px;
+                                    }
+                                    
+                                    .btn-draw {
+                                        margin-top: 20px;
+                                    }
+                                    
+                                    .img-map {
+                                        margin-top: 50px;
+                                    }
+                                    /*Estilos para la seccion del footer*/
+                                    
+                                    footer {
+                                        background-color: #2b2b2b;
+                                        height: 70vh;
+                                        margin: 0;
+                                        padding-top: 40px;
+                                        color: white;
+                                    }
+                                    
+                                    li {
+                                        list-style: none;
+                                    }
+                                    
+                                    ul {
+                                        font-size: 15px;
+                                        line-height: 30px;
+                                    }
+                                    
+                                    .icons {
+                                        margin-top: 210px;
+                                        padding-right: 5px;
+                                    }
+                                    
+                                    .app-store {
+                                        margin-bottom: 15px;
+                                    }
+                                    
+                                    .logos-app {
+                                        margin-top: 100px;
+                                    }
+                                    
+                                    hr {
+                                        width: 100%;
+                                    }
+                                    /*Estilos generales*/
+                                    
+                                    body {
+                                        font-size: 16px;
+                                        line-height: 1.5;
+                                    }
