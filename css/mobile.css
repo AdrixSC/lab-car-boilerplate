@@ -84,4 +84,16 @@
         color: white;
         margin-bottom: 25px;
     }
+    .footer {
+        display: none;
+    }
+    .footer-mobile {
+        display: block;
+    }
+    .logo-lab-black-mobile {
+        margin-left: 5%;
+    }
+    .logos-app-mobile>i {
+        margin-bottom: 50px;
+    }
 }
