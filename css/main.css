@@ -47,12 +47,29 @@
                                     .login>div>hr {
                                         width: 20%;
                                     }
+                                    
+                                    .login-mobile>h1 {
+                                        font-size: 20px;
+                                    }
+                                    
+                                    .show {
+                                        display: block;
+                                    }
+                                    
+                                    .hide {
+                                        display: none;
+                                    }
+                                    
+                                    .login-mobile>p {
+                                        font-size: 10px;
+                                    }
                                     /*Estilos para la seccion de iphone*/
                                     
                                     .iphone {
                                         background-color: #ffb700;
                                         color: white;
                                         height: 80vh;
+                                        display: block;
                                     }
                                     
                                     .iphone>div>p {
@@ -72,22 +89,15 @@
                                     
                                     .img>img {
                                         width: 30%;
+                                        margin-left: 50px;
                                     }
                                     
-                                    .login-mobile>h1 {
-                                        font-size: 20px;
+                                    .text {
+                                        margin-left: 80px;
                                     }
                                     
-                                    .show {
-                                        display: block;
-                                    }
-                                    
-                                    .hide {
+                                    .iphone-mobile {
                                         display: none;
-                                    }
-                                    
-                                    .login-mobile>p {
-                                        font-size: 10px;
                                     }
                                     /*Estilos para la seccion de driver */
                                     

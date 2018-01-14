@@ -26,4 +26,29 @@
     .login {
         display: none;
     }
+    .iphone {
+        display: none;
+    }
+    .iphone-mobile {
+        display: block;
+        background-color: #ffb700;
+        color: white;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .border-mobile {
+        border: 1px solid white;
+        height: 60vh;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .border-mobile>h1 {
+        font-size: 25px;
+    }
+    .iphone-mobile>p {
+        margin-top: 10px;
+    }
+    .img-mobile>img {
+        width: 50%;
+    }
 }
