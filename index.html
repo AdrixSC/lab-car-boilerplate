@@ -35,7 +35,7 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="#">Viaja</a></li>
                         <li><a href="#">Conduce</a></li>
-                        <li><a href="#ventana1" data-toggle="modal" data-target="#myModal" id="myModal" type="static">Iniciar sesión</a></li>
+                        <li><a href="#iniciar-sesion" data-toggle="modal">Iniciar sesión</a></li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
@@ -44,19 +44,38 @@
         </nav>
 
         <!--empieza modal para iniciar sesión -->
-        <div id="myModal" class="modal fade" tabindex="-1" role="dialog">
+        <div id="iniciar-sesion" class="modal fade" tabindex="-1" role="dialog">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
+                    <!--Header del modal-->
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title">Modal title</h4>
+                        <div class="container-icon">
+                            <div class="circle-icon">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                            </div>
+                        </div>
                     </div>
+                    <!--Contenido del modal-->
                     <div class="modal-body">
-                        <p>One fine body&hellip;</p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
+                        <div class="input-group user">
+                            <span class="input-group-addon" id="basic-addon1"><i class="fa fa-user" aria-hidden="true"></i>
+</span>
+                            <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+                        </div>
+                        <div class="input-group password">
+                            <span class="input-group-addon" id="basic-addon1"><i class="fa fa-unlock-alt" aria-hidden="true"></i>
+</span>
+                            <input type="text" class="form-control" placeholder="Password" aria-describedby="basic-addon1">
+                        </div>
+                        <div class="boton-login">
+                            <button type="button" class="btn btn-default btn-login col-sm-offset-4">LOGING</button>
+                        </div>
+                        <div class="forgot-password col-sm-offset-2">
+                            <h6>Forgot password?</h6>
+                            <p>Click Here</p>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -73,7 +92,7 @@
                         <h1>Disfruta del viaje</h1>
                         <h1>Eres dueño de tu tiempo</h1>
                         <p>Viaja con Labcar</p>
-                        <p><a class="btn btn-default" href="#" role="button">REGÍSTRATE</a></p>
+                        <p><a class="btn btn-default" href="#registro" data-toggle="modal" role="button">REGÍSTRATE</a></p>
                         <div class="divide row">
                             <hr class="col-sm-offset-1 col-sm-3 col-md-3 col-md-offset-1">
                             <p class="col-sm-4 col-md-4">O bien</p>
@@ -94,12 +113,35 @@
                 </div>
         </section>
 
+        <!--empieza modal para registro -->
+        <div id="registro" class="modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <!--Header del modal-->
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">REGISTRO</h4>
+                    </div>
+                    <!--Contenido del modal-->
+                    <div class="modal-body">
+                        <p>One fine body&hellip;</p>
+                    </div>
+                    <!--Footer del modal-->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--termina modal-->
+
         <section class="row iphone">
             <div class="border">
                 <div class="img">
-                    <img class="col-sm-4 col-md-3 col-lg-5 mg-top" src="assets/images/iPhone6Plus.png" alt="iPhone">
+                    <img class="col-sm-3 col-md-3 col-lg-5 mg-top" src="assets/images/iPhone6Plus.png" alt="iPhone">
                 </div>
-                <div class="text col-sm-6 col-md-7 col-lg-4 mg-top">
+                <div class="text col-sm-5 col-md-6 col-lg-4 mg-top">
                     <h1>Descarga la nueva app</h1>
                     <p>La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido</p>
                     <p>Con solo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes: tu conductor sabe exactamente a dónde ir</p>
@@ -122,15 +164,38 @@
                 <div class="container-button col-xs-12 col-sm-6 col-md-4">
                     <h1>Conduce cuando quieras</h1>
                     <p>LabCar es una opción flexible para alcanzar tus metas financieras</p>
-                    <p><a class="btn btn-default btn-driver btn-driver-mobile" href="#" role="button">Conviértete en conductor</a></p>
+                    <p><a class="btn btn-default btn-driver btn-driver-mobile" href="#driver" data-toggle="modal" role="button">Conviértete en conductor</a></p>
                 </div>
                 <div class="container-button-mobile col-xs-12 col-md-4">
                     <h1>Conduce cuando quieras</h1>
                     <p>LabCar es una opción flexible para alcanzar tus metas financieras</p>
-                    <p><a class="btn btn-default btn-lg btn-driver btn-driver-mobile" href="#" role="button">Conviértete en conductor</a></p>
+                    <p><a class="btn btn-default btn-lg btn-driver btn-driver-mobile" href="#driver" data-toggle="modal" role="button">Conviértete en conductor</a></p>
                 </div>
             </div>
         </section>
+
+        <!--empieza modal para driver -->
+        <div id="driver" class="modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <!--Header del modal-->
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">driver</h4>
+                    </div>
+                    <!--Contenido del modal-->
+                    <div class="modal-body">
+                        <p>One fine body&hellip;</p>
+                    </div>
+                    <!--Footer del modal-->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--termina modal-->
 
         <section class="map row">
             <div class="form col-xs-12 col-sm-4 col-md-5 col-md-offset-1">
