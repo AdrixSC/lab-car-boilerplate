@@ -52,7 +52,7 @@
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                         <div class="container-icon">
                             <div class="circle-icon">
-                                <i class="fa fa-user" aria-hidden="true"></i>
+                                <i class="fa fa-user fa-user" aria-hidden="true"></i>
                             </div>
                         </div>
                     </div>
@@ -81,8 +81,6 @@
             </div>
         </div>
         <!--termina modal-->
-
-
 
 
         <section class="taxi-login row">
@@ -116,20 +114,30 @@
         <!--empieza modal para registro -->
         <div id="registro" class="modal fade" tabindex="-1" role="dialog">
             <div class="modal-dialog" role="document">
-                <div class="modal-content">
+                <div class="modal-content-login">
                     <!--Header del modal-->
-                    <div class="modal-header">
+                    <div class="modal-header-login">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title">REGISTRO</h4>
+                        <div role="group">
+                            <button type="button" class="btn btn-default btn-account col-sm-offset-3">Ya tienes una cuenta?</button>
+                            <p>O CREA UNA CUENTA NUEVA</p>
+                        </div>
                     </div>
                     <!--Contenido del modal-->
-                    <div class="modal-body">
-                        <p>One fine body&hellip;</p>
-                    </div>
-                    <!--Footer del modal-->
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
+                    <div class="modal-body-login col-sm-offset-3">
+                        <div class="input-name">
+                            <input type="text" class="form-control" placeholder="Nombre" aria-describedby="basic-addon1">
+                            <input type="text" class="form-control" placeholder="Apellido" aria-describedby="basic-addon1">
+                        </div>
+                        <input type="text" class="form-control" placeholder="Correo Electrónico: ejemplo@correo.mx" aria-describedby="basic-addon1">
+                        <input type="text" class="form-control" placeholder="Teléfono" aria-describedby="basic-addon1">
+                        <input type="text" class="form-control" placeholder="Contraseña" aria-describedby="basic-addon1">
+                        <input type="text" class="form-control" placeholder="Ciudad" aria-describedby="basic-addon1">
+                        <input type="text" class="form-control" placeholder="(Opción) Código de invitación" aria-describedby="basic-addon1">
+                        <button type="button" class="btn btn-default dropdown-toggle drop-login" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          ¿Cómo te enteraste de nosotros? <span class="caret"></span>
+                        </button>
+                        <!--<button type="button" class="btn btn-default btn-send">Enviar</button>-->
                     </div>
                 </div>
             </div>
@@ -177,20 +185,26 @@
         <!--empieza modal para driver -->
         <div id="driver" class="modal fade" tabindex="-1" role="dialog">
             <div class="modal-dialog" role="document">
-                <div class="modal-content">
+                <div class="modal-content-driver">
                     <!--Header del modal-->
-                    <div class="modal-header">
+                    <div class="modal-header-driver">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title">driver</h4>
+                        <h4 class="modal-title h4-driver">¿Tienes un vehículo de 4 puertas?</h4>
+                        <button class="btn-default btn-lg dropdown-toggle btn-si col-sm-offset-1" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Sí <span class="caret mg-left-430"></span>
+                        </button>
+
+                        <p>No ves tu vehículo en la lista? Envíanos un correo a</p>
+                        <span>sociosmdv@uber.com</span>
+
                     </div>
                     <!--Contenido del modal-->
-                    <div class="modal-body">
-                        <p>One fine body&hellip;</p>
+                    <div class="modal-body-driver">
+
                     </div>
                     <!--Footer del modal-->
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
+                    <div class="modal-footer-driver">
+
                     </div>
                 </div>
             </div>

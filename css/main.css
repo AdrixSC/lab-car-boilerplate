@@ -260,7 +260,7 @@
                                                 background-color: #1b79f7;
                                             }
                                             
-                                            .fa {
+                                            .fa-user {
                                                 font-size: 90px;
                                             }
                                             
@@ -299,4 +299,83 @@
                                                 background-color: #ffb700;
                                                 margin-top: 15px;
                                                 color: white;
+                                            }
+                                            /*Estilos para modal de registro*/
+                                            
+                                            .modal-content-login {
+                                                background-color: #a9a9a9;
+                                            }
+                                            
+                                            .modal-header-login>div>.btn-account {
+                                                background-color: black;
+                                                color: white;
+                                                padding-left: 100px;
+                                                padding-right: 103px;
+                                                margin-top: 20px;
+                                                border: none;
+                                                padding-bottom: 12px;
+                                                padding-top: 12px;
+                                            }
+                                            
+                                            .modal-header-login>div>p {
+                                                font-size: 10px;
+                                                text-align: center;
+                                                margin-top: 10px;
+                                            }
+                                            
+                                            .input-name {
+                                                display: inline-flex;
+                                            }
+                                            
+                                            .form-control {
+                                                width: 77%;
+                                            }
+                                            
+                                            .drop-login {
+                                                background-color: #ccc8c8;
+                                                padding: 15px;
+                                                padding-left: 56px;
+                                                padding-right: 39px;
+                                                margin-top: 5px;
+                                                font-size: 16px;
+                                            }
+                                            
+                                            .btn-send {
+                                                background-color: rgb(23, 203, 235)
+                                            }
+                                            /*Estilos para modal del driver*/
+                                            
+                                            .modal-content-driver {
+                                                background-color: #a9a9a9;
+                                            }
+                                            
+                                            .modal-header-driver {
+                                                padding-top: 10px;
+                                            }
+                                            
+                                            .btn-si {
+                                                width: 500px;
+                                            }
+                                            
+                                            .mg-left-430 {
+                                                margin-left: 400px;
+                                            }
+                                            
+                                            .h4-driver {
+                                                margin-bottom: 10px;
+                                                margin-left: 55px;
+                                            }
+                                            
+                                            .modal-header-driver>p,
+                                            span {
+                                                margin-left: 55px;
+                                                margin-bottom: 0px;
+                                            }
+                                            
+                                            .modal-header-driver>p {
+                                                margin-top: 10px;
+                                            }
+                                            
+                                            .modal-header-driver>span {
+                                                color: rgb(32, 115, 218);
                                             }
