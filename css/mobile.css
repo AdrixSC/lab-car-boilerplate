@@ -7,11 +7,11 @@
         height: auto;
         line-height: 40px;
         position: relative;
-        padding: 50px;
-        top: 250px;
+        padding: 25px;
+        top: 170px;
     }
     span {
-        font-size: 40px;
+        font-size: 32px;
     }
     .line {
         display: inline-block;
@@ -49,7 +49,7 @@
         margin-top: 10px;
     }
     .img-mobile>img {
-        width: 50%;
+        width: 25%;
     }
     .driver-mobile {
         background-image: url("../assets/images/conduce.jpg");
