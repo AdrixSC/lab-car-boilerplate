@@ -1,4 +1,4 @@
-## Labcar
+# Labcar
 
 Descripción: Recrear página web LabCar, hacerla responsiva y como extra, hacer los modales solicitados.
 
